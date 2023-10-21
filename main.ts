@@ -20,7 +20,6 @@ export default class MyPlugin extends Plugin {
 		this.addSettingTab(new SampleSettingTab(this.app, this));
 
 		this.registerMarkdownCodeBlockProcessor("csv", (source, el, ctx) => {
-			console.log("cjaisj")
 		  const rows = source.split("\n").filter((row) => row.length > 0);
 	
 		  const pre = el.createEl("pre");
