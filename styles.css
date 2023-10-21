@@ -1,8 +1,27 @@
-/*
+/* --hex-pink: #f5c2e7;
+--hex-mauve: #cba6f7;
+--hex-red: #f38ba8;
+--hex-peach: #fab387;
+--hex-yellow: #f9e2af;
+--hex-green: #a6e3a1;
+--hex-teal: #94e2d5;
+--hex-sky: #89dceb;
+--hex-sapphire: #74c7ec;
+--hex-blue: #89b4fa;
+--hex-lavender: #b4befe; */
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.csv_col_0 {
+    color: #f38ba8;
+}
 
-If your plugin does not need CSS, delete this file.
+.csv_col_1 {
+    color: #89dceb;
+}
 
-*/
+.csv_col_2 {
+    color: #a6e3a1;
+}
+
+.csv_col_3 {
+    color: #f9e2af;
+}
