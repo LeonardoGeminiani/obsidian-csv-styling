@@ -23,7 +23,9 @@ export default class MyPlugin extends Plugin {
 			console.log("cjaisj")
 		  const rows = source.split("\n").filter((row) => row.length > 0);
 	
-		  const code = el.createEl("code");
+		  const pre = el.createEl("pre");
+		  pre.className = "language-csv";
+		  const code = pre.createEl("code");
 		  code.className = "is-loaded language-csv";
 	
 		  for (let i = 0; i < rows.length; i++) {
